@@ -35,19 +35,16 @@ public class Main {
         bicycle.getWheelsCount();
 
 
-/*       новые объекты создавать нельзя, т.к. класс абстрактный и из него нам нужны только метооды
+
         ServiceStation station = new ServiceStation();
         station.check(car, null, null);
         station.check(car2, null, null);
         station.check(null, bicycle, null);
         station.check(null, bicycle2, null);
         station.check(null, null, truck);
-        station.check(null, null, truck2);*/
+        station.check(null, null, truck2);
 
-        int i = 0;
-      System.out.print(++i);
-        System.out.print(i++);
-        System.out.print(i);
+
 
     }
 }
