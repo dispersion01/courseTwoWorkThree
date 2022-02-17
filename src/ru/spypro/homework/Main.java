@@ -44,7 +44,10 @@ public class Main {
         station.check(null, null, truck);
         station.check(null, null, truck2);*/
 
-
+        int i = 0;
+      System.out.print(++i);
+        System.out.print(i++);
+        System.out.print(i);
 
     }
 }

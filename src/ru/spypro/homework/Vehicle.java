@@ -2,11 +2,11 @@ package ru.spypro.homework;
 
 import java.util.Objects;
 
-public class Vehicles {
+public class Vehicle {
     private String modelName;
     private int wheelsCount;
 
-    public Vehicles(String modelName, int wheelsCount) {
+    public Vehicle(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
@@ -31,8 +31,8 @@ public class Vehicles {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Vehicles vehicles = (Vehicles) o;
-        return wheelsCount == vehicles.wheelsCount && Objects.equals(modelName, vehicles.modelName);
+        Vehicle vehicle = (Vehicle) o;
+        return wheelsCount == vehicle.wheelsCount && Objects.equals(modelName, vehicle.modelName);
     }
 
     @Override

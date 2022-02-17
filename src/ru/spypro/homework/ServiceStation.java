@@ -1,9 +1,6 @@
 package ru.spypro.homework;
 
-public abstract class ServiceStation extends Vehicles {
-    public ServiceStation(String modelName, int wheelsCount) {
-        super(modelName, wheelsCount);
-    }
+public class ServiceStation {
 
     public void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
